@@ -2,7 +2,7 @@
 cask "meroku" do
   desc "Easy infrastructure management"
   homepage "https://madappgang.com"
-  version "3.5.2"
+  version "3.5.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "meroku" do
 
   on_macos do
     on_intel do
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.2/meroku_Darwin_x86_64.tar.gz"
-      sha256 "3c5f634c555e9cd438390ce63ac0b75286eaaf15770fd91bb084c95fa287285f"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.3/meroku_Darwin_x86_64.tar.gz"
+      sha256 "0db44de29501fb357c1d55a40f6a0b855d4869ccf2868fb76a5d87be5b7174f7"
     end
     on_arm do
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.2/meroku_Darwin_arm64.tar.gz"
-      sha256 "19b149f1548d4205ab895d1e384ea377778f981465c5ca3fc837622b2d19d280"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.3/meroku_Darwin_arm64.tar.gz"
+      sha256 "77014441ee7aa1b198fd5a1a7959c1a2f0fa15936e7c06e39566bcd08c93ffbb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.2/meroku_Linux_x86_64.tar.gz"
-      sha256 "180eba3132eadd99861eec7c400d644415804c72eb8f2decc55071d1deee5c30"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.3/meroku_Linux_x86_64.tar.gz"
+      sha256 "2ef545a2c69380b5c9333157e0cf69f23f7a2c7eb3123f2401d6192edbed2be5"
     end
     on_arm do
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.2/meroku_Linux_arm64.tar.gz"
-      sha256 "12e525a04a8bdf0e911dc36f4cfa64f048e408edf7f2814ecec72fd182b308c2"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.5.3/meroku_Linux_arm64.tar.gz"
+      sha256 "952d7ed654628d335e0d30a264f2c02c48847b662d151c85778ef652e308f7a1"
     end
   end
 
