@@ -5,7 +5,7 @@
 class Meroku < Formula
   desc "Easy infrastructure management"
   homepage "https://madappgang.com"
-  version "3.8.5"
+  version "3.8.6"
   license "MIT"
 
   depends_on "opentofu" => :optional
@@ -13,16 +13,16 @@ class Meroku < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.5/meroku_Darwin_x86_64.tar.gz"
-      sha256 "2b31370cac1e5ce73833182d0a99c550f1adc69dd18300acd808b4c0f01244db"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.6/meroku_Darwin_x86_64.tar.gz"
+      sha256 "a15236e43bb97000973ec741cc142310b8145f8d0db3737890677a1611893705"
 
       def install
         bin.install "meroku"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.5/meroku_Darwin_arm64.tar.gz"
-      sha256 "137bb03da9f59d892cc8e39c9c90a9e4c785ae249fa5dc9c885247902002498f"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.6/meroku_Darwin_arm64.tar.gz"
+      sha256 "9dd5671b244d9f45e07bf1a52d456122caa688b46bff53b8b030b4be0570a3c5"
 
       def install
         bin.install "meroku"
@@ -32,15 +32,15 @@ class Meroku < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.5/meroku_Linux_x86_64.tar.gz"
-      sha256 "a269ba9b288d0fa0110ca5760b12b9914281dea54f305a915f8950785a51041f"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.6/meroku_Linux_x86_64.tar.gz"
+      sha256 "e1401f2fcc127421ac552ea42deb1380f745b50a65f2967fdbbce948ec76af4d"
       def install
         bin.install "meroku"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.5/meroku_Linux_arm64.tar.gz"
-      sha256 "fab06c07f1c733fe59fb30d9dd1c0db1ca7cf8dac3549442bed4f65bed54cc31"
+      url "https://github.com/MadAppGang/infrastructure/releases/download/v3.8.6/meroku_Linux_arm64.tar.gz"
+      sha256 "f39e05c728fb98735f1e31aefb9dee4a51acc347dcab5eee6757ec32cdc7c64e"
       def install
         bin.install "meroku"
       end
