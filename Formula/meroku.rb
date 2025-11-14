@@ -14,7 +14,7 @@ class Meroku < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/MadAppGang/meroku/releases/download/v3.18.12/meroku_Darwin_x86_64.tar.gz"
-      sha256 "407866d33fb2f790a36b1dbc8787b7a3706d8babaca95ee83d7595d463069023"
+      sha256 "270d9524ea66edbf670c6641208732c4eff5f53acf660308c8e44ca961f71499"
 
       def install
         bin.install "meroku"
@@ -22,7 +22,7 @@ class Meroku < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/MadAppGang/meroku/releases/download/v3.18.12/meroku_Darwin_arm64.tar.gz"
-      sha256 "ca95e1dfbbc6c387c2630f63e8838ed8f221f11e59f88bb6c11afa712fdf01a5"
+      sha256 "5f1e9f8efff8cfdf1cbaff14c3607c0231002906e44e56b2ab1f97cbba03edf5"
 
       def install
         bin.install "meroku"
@@ -33,14 +33,14 @@ class Meroku < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/MadAppGang/meroku/releases/download/v3.18.12/meroku_Linux_x86_64.tar.gz"
-      sha256 "4a236c0346016d9287346c910ab14b5b2059c056626b11ef175288d23f8d8350"
+      sha256 "eeca11308d8a57bd2d8bb53afa34e48183eb35ff3db32ca95fdc92c63509d541"
       def install
         bin.install "meroku"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/MadAppGang/meroku/releases/download/v3.18.12/meroku_Linux_arm64.tar.gz"
-      sha256 "5fec07f7f01ca0a0759383e305a96fc1c955fa8b251f3ef9cd95efa8be861394"
+      sha256 "06aa4c0b0963a65e876b12d0efe53581d60197656daf822222dd13d9f22cc82f"
       def install
         bin.install "meroku"
       end
