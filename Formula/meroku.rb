@@ -1,28 +1,28 @@
 class Meroku < Formula
   desc "Easy infrastructure management"
   homepage "https://madappgang.com"
-  version "3.20.6"
+  version "3.20.7"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.6/meroku_Darwin_x86_64.tar.gz"
-      sha256 "b0a31f984fad92062ca0ce967b1cd694e7527a1e7602cecf59a08e1afa65aed4"
+      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.7/meroku_Darwin_x86_64.tar.gz"
+      sha256 "03f475a4a44d995a6edbf4868f139822881abc755316db006e9ea282de12026a"
     end
     on_arm do
-      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.6/meroku_Darwin_arm64.tar.gz"
-      sha256 "c95d47e939b6cfd1e4a24c14f7dd7173ada09cc053b4d1fdeea4fd92eb0221d0"
+      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.7/meroku_Darwin_arm64.tar.gz"
+      sha256 "08be0c82d9b948b31db6149134f2b7df6b09803f4555e6d9fc91464c2c9407b8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.6/meroku_Linux_x86_64.tar.gz"
-      sha256 "df5da5326210ce76522e58186dc78c1594dcd361218cb3b8344ed7bb5bb904b9"
+      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.7/meroku_Linux_x86_64.tar.gz"
+      sha256 "ef10903eaebea20249dcccd6fc11b221ec53777a2c87d7058b849304d5b2832e"
     end
     on_arm do
-      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.6/meroku_Linux_arm64.tar.gz"
-      sha256 "e78fea07691da4c43396191a7bdf602904a6e6948d81ebac984a076c37170bb2"
+      url "https://github.com/MadAppGang/meroku/releases/download/v3.20.7/meroku_Linux_arm64.tar.gz"
+      sha256 "bcca61859b580deaee93d58626dc69cfdf0f8cadd62a0255270e0bcfc05c348c"
     end
   end
 
